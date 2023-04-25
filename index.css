@@ -1,0 +1,141 @@
+body {
+    background-image: url(https://slubillikens.com/images/2020/6/29/WBB_education_day.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.score-board-container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fff;
+    width: 500px;
+    height: 300px;
+    margin: 300px auto;
+    background-color: rgb(15 21 82 / 90%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.home,
+.guest {
+    color: #fff;
+    margin: 30px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-score-board,
+.guest-score-board {
+    text-align: center;
+    margin: -8px 66px;
+}
+
+.btn {
+    width: 36px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 4px;
+}
+
+.score {
+    display: inline-block;
+    font-size: 5rem;
+    color: #d62828;
+    margin: 5px;
+}
+
+.score,
+.btn {
+    font-family: "Cursed Timer ULil", cursive;
+}
+
+
+.home-score,
+.guest-score {
+    width: 120px;
+    height: 100px;
+    background-color: #000;
+    margin: 20px auto;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-container-pts-btn {
+    width: 30px;
+    height: 30px;
+}
+
+.refresh-btn {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 18px;
+    left: 200px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+
+}
+
+
+@media screen and (max-width:310px) {
+    body {
+        width: 60%;
+        height: 83vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .score-board-container {
+        width: 280px;
+        height: 350px;
+        margin: 160px auto;
+        position: relative;
+    }
+
+    .home-score,
+    .guest-score {
+        width: 85px;
+        height: 94px;
+        margin: 20px auto;
+    }
+
+    .btn {
+        font-size: 11px;
+        text-align: center;
+        margin: 3px 0;
+        padding: 10px 5px;
+    }
+
+    .home,
+    .guest {
+        font-size: 20px;
+    }
+
+    .home-score-board,
+    .guest-score-board {
+        margin: -10px 21px;
+    }
+
+    .refresh-btn {
+        width: 75px;
+        height: 25px;
+        position: absolute;
+        bottom: 35px;
+        left: 103;
+    }
+
+
+}
